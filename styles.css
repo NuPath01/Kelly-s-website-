@@ -39,3 +39,25 @@ img {
   display: block;
   max-width: 100%;
 }
+nav ul {
+  display: Flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 2rem;
+} 
+
+figure img {
+  width: 200px;
+}
+
+figcaption {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+}
